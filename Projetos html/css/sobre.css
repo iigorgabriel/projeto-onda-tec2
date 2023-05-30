@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
+
+* {
+   font-family: 'Saira Condensed', sans-serif;
+   padding: 0;
+   margin: 0;
+}
+
+html {
+   background-color: #000000;
+   background-size: cover;
+   color: #fff;
+}
+
+.section-mapa img {
+   display: flex;
+   width: 500px;
+   margin-top: 0px;
+   display: flex;
+
+}
+.section {
+   height: 100vh;
+}
+
+.texto-mapa {
+   display: flex;
+}
+
+.texto-mapa img p {
+   display: inline-block;
+}
+
+.texto-mapa p {
+   margin-left: 20px;
+   font-size: 22px;
+   margin-top: 30px;
+   display: inline-block;
+}
+
+.logop {
+   width: 100%;
+   margin-top: 0;
+   margin-left: 0;
+   margin-right: 0;
+   left: 0;
+   background-repeat: no-repeat;
+
+}
+
+/* Define o menu */
+#menu img {
+   margin: 7px 10px;
+   float: right;
+}
+#menu {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   height: 50px;
+   border-bottom: 3px solid whitesmoke;
+   transition: background-color 0.3s ease-in-out;
+}
+
+#menu .item {
+   display: inline-block;
+   padding: 15px;
+   color: white;
+   text-decoration: none;
+   font-size: 17px;
+   margin: 7px 10px;
+   margin-top: 3px;
+}
+
+/* Nova classe a ser atribuída ao elemento com os estilos desejados */
+.mudaCor {
+   background-color: #00071a;
+   color: white;
+}
+
+#body-wrapper {
+   margin-top: 0px;
+
+}
+/*/menu projeto - nav bar/*/
+.dropdown {
+   position: relative;
+   display: inline-block;
+
+}
+
+.dropdown-content {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+   padding: 12px 16px;
+   z-index: 1;
+   border-radius: 20px;
+}
+
+.dropdown:hover .dropdown-content1 {
+   display: block;
+}
+
+.dropdown span {
+   text-decoration: none;
+   color: white;
+}
+
+.dropdown a {
+   text-decoration: none;
+   color: black;
+}
+
+.dropdown a:hover p {
+   background-color: #000000;
+   border-radius: 4px;
+   color: white;
+}
+
+
+/*////menu cadastro - nav bar ///*/
+
+.dropdown-content1 {
+   display: none;
+   position: absolute;
+   background-color: #f9f9f9;
+   min-width: 160px;
+   box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+   padding: 10px 15px ; 
+   z-index: 1;
+   border-radius: 10px;
+}
+
+.dropdown1:hover .dropdown-content1 {
+   display: block;
+}
+
+.dropdown1 span {
+   text-decoration: none;
+   color: white;
+}
+
+.dropdown1 a {
+   text-decoration: none;
+   color: black;
+   padding: 10px 10px;
+}
+/*// O sobre; /*/
+
+.texto1{
+   text-align: right;
+   margin-top: -210px;
+   margin-right: 700px;
+}
+.texto2{
+   text-align: center;
+   margin-top: 50px;
+   margin-right: 20px;
+}
+
+.linha-vertical {
+   height: 240px;
+   border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+   margin-left: 250px;
+   margin-top: 150px;
+}
+.grupo{
+   margin-left: 800px;
+   margin-top: -180px;
+}
+.faculdade{
+   margin-top: 150px; 
+   margin-left: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+
